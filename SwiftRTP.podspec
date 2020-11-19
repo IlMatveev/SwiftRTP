@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
 
   spec.source_files = "Sources/**/*.{h,m}", "Sources/**/*.swift"
 
-  spec.dependency 'SwiftIO', :git => "https://github.com/IlMatveev/SwiftIO", :branch => "updateFromRoot"
-  spec.dependency 'SwiftUtilities', :git => "https://github.com/IlMatveev/SwiftUtilities", :branch => "swift5"
+  spec.dependency 'SwiftIO'
+  spec.dependency 'SwiftUtilities'
 
 end
